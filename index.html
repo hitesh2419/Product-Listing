@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <!-- <header class="main-header">
+        <div class="header-left">
+          <span>Grab a Shoe</span>
+        </div>
+        <div class="header-center">
+          <div class="search-container">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search for different products and brands"
+            />
+            <button type="submit" class="search-button">
+              <img src="searchImg.png" alt="Search" />
+            </button>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="dropdown">Category <span>&#9662;</span></div>
+          <div class="dropdown">Cart</div>
+          <div class="dropdown">EN <span>&#9662;</span></div>
+          <div class="dropdown">Login</div>
+          <div class="dropdown signup">Signup</div>
+        </div>
+      </header> -->
+      <div class="center-text">
+        <p>Free shipping for orders above $299</p>
+      </div>
+      <div class="mainsection-container">
+        <!-- <aside class="main-sidebar">
+          <div>
+            <h4 class="margin-bot">All Products</h4>
+            <ul class="list-container">
+              <li class="selected">Sneakers</li>
+              <li>Bags</li>
+              <li>Electronics</li>
+              <li>Smartphones</li>
+              <li>Kitchen and Cooking</li>
+              <li>Jewelers</li>
+              <li class="selected">SHOW MORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="margin-bot">Brands</h4>
+            <ul class="list-container">
+              <li class="selected">New Balance</li>
+              <li>Adidas</li>
+              <li>Puma</li>
+              <li>Fila</li>
+              <li>Nissan</li>
+              <li>Comfort</li>
+              <li class="selected">SHOW MORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="margin-bot">Stores</h4>
+            <ul class="list-container">
+              <li class="selected">Orea</li>
+              <li>Femi Waers</li>
+              <li>Ay Kicks</li>
+              <li>Bhubaneswar Bootwala</li>
+              <li>Duke Boots</li>
+              <li>Your BB</li>
+              <li class="selected">SHOW MORE</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="margin-bot">Price</h4>
+            <ul class="list-container">
+              <input type="range" />
+              <div class="range-text">
+                <p>$0</p>
+                <p>$1500</p>
+              </div>
+            </ul>
+          </div>
+          <div>
+            <h4 class="margin-bot">Colors</h4>
+            <ul class="list-container">
+              <div class="color-row">
+                <div class="color-container">
+                  <div class="dot black"></div>
+                  <p>Black</p>
+                </div>
+                <div class="color-container">
+                  <div class="dot green"></div>
+                  <p>Green</p>
+                </div>
+              </div>
+              <div class="color-row">
+                <div class="color-container">
+                  <div class="dot red"></div>
+                  <p>Red</p>
+                </div>
+                <div class="color-container">
+                  <div class="dot yellow"></div>
+                  <p>Yellow</p>
+                </div>
+              </div>
+              <div class="color-row">
+                <div class="color-container">
+                  <div class="dot blue"></div>
+                  <p>Blue</p>
+                </div>
+                <div class="color-container">
+                  <div class="dot grey"></div>
+                  <p>Grey</p>
+                </div>
+              </div>
+              <li class="selected">CHOOSE COLOR</li>
+            </ul>
+          </div>
+        </aside> -->
+        <main class="main-section">
+          <div class="filter-container">
+            <div>
+              <h4 class="totalProducts"></h4>
+            </div>
+            <!-- <div>
+              <label for="sortOrder">Sort by:</label>
+              <select id="sortOrder">
+                <option value="desc">(High to Low)</option>
+                <option value="asc">(Low to High)</option>
+              </select>
+            </div> -->
+            <div class="sort-container">
+              <div class="sort-toggle" id="popularityToggle">
+                <span>Popularity</span>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="sort-dropdown" id="popularityDropdown">
+                <div class="dropdown-item" data-sort="desc">High to Low</div>
+                <div class="dropdown-item" data-sort="asc">Low to High</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-container"></div>
+        </main>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
